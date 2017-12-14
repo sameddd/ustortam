@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>EGE ÜNİVERSİTESİ BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+    </head>
+    <body>
+            <div id="header-wrapper">
+                    <div id="header" class="container">
+                        <div id="logo">
+                                <a href="index.html" class="pull-left visible-md visible-lg">
+                                        <img src="images/ege.png">
+                                     </a>
+                            <h1><a href="#">Ege Üniversitesi Bilgisayar Mühendisliği</a></h1>
+                        </div>
+                        <div id="menu">
+                                <ul>
+                                    <li><a href="index.html" accesskey="1" title="">Anasayfa</a></li>
+                                    <li><a href="tarihce.html" accesskey="2" title="">Tarihçe</a></li>
+                                    <li><a onclick="getPersonel()" accesskey="3" title="">Personel</a></li>
+                                    <li class="active"><a href="egitim.html" accesskey="4" title="">Eğitim</a></li>
+                                    <li><a href="http://egeweb.ege.edu.tr/harita/" accesskey="5" title="">Harita</a></li>
+                                </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="wrapper">
+                    <div id="banner" class="container">
+                            <div class="container">
+                                    <div id="tbox1" class="col-sm-6">
+                                        <div class="title">
+                                            <h2>1. Sınıf</h2>
+                                            <img src="images/spring.jpg" width="100%" height="250" frameborder="0" onclick="getDersler('lisans','bahar',1)">
+                                        </div>
+                                    </div>
+                                    <div id="tbox1" class="col-sm-6">
+                                        <div class="title">
+                                            <h2>2. Sınıf</h2>
+                                            <img src="images/spring.jpg" width="100%" height="250" frameborder="0" onclick="getDersler('lisans','bahar',2)">
+                                        </div>
+                                    </div>
+                                    <div id="tbox1" class="col-sm-6">
+                                        <div class="title">
+                                            <h2>3. Sınıf</h2>
+                                            <img src="images/spring.jpg" width="100%" height="250" frameborder="0" onclick="getDersler('lisans','bahar',3)">
+                                        </div>
+                                    </div>
+                                    <div id="tbox1" class="col-sm-6">
+                                        <div class="title">
+                                            <h2>4. Sınıf</h2>
+                                            <img src="images/spring.jpg" width="100%" height="250" frameborder="0" onclick="getDersler('lisans','bahar',4)">
+                                        </div>
+                                    </div>
+                                    
+                            </div>     
+                    </div>
+                    <div class="container">
+                        <div id="tbox1" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" onclick="getPersonel()">
+                            <div class="title">
+                                <h3>Personel</h3>
+                                <a href="egitim.html"><img src="images/personel.jpg" width="100%" height="250" frameborder="0"></a>
+                            </div>
+                        </div>
+                        <div id="tbox2" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="title">
+                                <h3>Eğitim</h3>
+                                <a href="egitim.html"><img src="images/Eğitim.jpg" width="100%" height="250" frameborder="0"></a>
+                            </div>
+                        </div>
+                        <div id="tbox3" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="title">
+                                <h3>Harita</h3>
+                                <a href="https://www.google.com/maps?ll=38.457989,27.205679&z=15&t=m&hl=tr-TR&gl=NL&mapclient=embed&cid=6903006297762220275">
+                                    <div id="map-tile">
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.6278452292627!2d27.211209951426735!3d38.457988479540866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b97d2edf7e8e55%3A0x5fcc67a77466c8f3!2zRWdlIMOcbml2ZXJzaXRlc2kgQmlsZ2lzYXlhciBNw7xoZW5kaXNsacSfaSBCw7Zsw7xtw7w!5e0!3m2!1str!2snl!4v1509347895531" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
+                                  </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container col-sm-12" ></div>
+                    <div id="portfolio" class="container">
+                            <div class="col-sm-3">
+                                
+                                  <h2>Yararlı Linkler</h2>
+                                  <br>
+                                        <div class="col-sm-4">
+                                        <ul class="list-inline">
+                                            <ol>
+                                                <a href="http://www.ege.edu.tr/tr-0/anasayfa.html#tab-1" data-toggle="tooltip" data-placement="right" title="Ege Üniversitesi">
+                                                    <i class="fa fa-university" ></i>  
+                                                </a>
+                                            </ol>
+                                            <ol><a href="http://postayeni.ege.edu.tr/" data-toggle="tooltip" data-placement="right" title="Ege Posta(Yeni)">
+                                                    <i class="fa fa-envelope-o"></i>
+                                                </a>
+                                            </ol>
+                                            <ol>
+                                                <a href="https://posta.ege.edu.tr/" data-toggle="tooltip" data-placement="right" title="Ege Posta(Eski)">
+                                                    <i class="fa fa-envelope-o" ></i>
+                                                </a>
+                                            </ol>
+                                            <ol>
+                                                <a href="http://egetel.ege.edu.tr" data-toggle="tooltip" data-placement="right" title="Ege Tel">
+                                                    <i class="fa fa-phone" ></i>
+                                                </a>
+                                            </ol>
+                                        </ul>
+                                      </div>
+                                      <div class="col-sm-4">
+                                      <ul>
+                                        <ol>
+                                                <a href="http://www.egeduyuru.ege.edu.tr/" data-toggle="tooltip" data-placement="right" title="Ege Duyuru">
+                                                    <i class="fa fa-bullhorn" ></i>
+                                                </a>
+                                            </ol>
+                                            <ol>
+                                                <a href="http://www.ege.edu.tr/tr-121/Mezun.html#tab-1" data-toggle="tooltip" data-placement="right" title="Mezunlar">
+                                                    <i class="fa fa-graduation-cap"></i>
+                                                </a>
+                                            </ol>  
+                                            <ol>
+                                                <a href="http://egeweb.ege.edu.tr/harita/" data-toggle="tooltip" data-placement="right" title="Harita">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </a>
+                                            </ol>
+                                      </ul>
+                                      </div>
+                                      <div class="col-sm-4">
+                                      </div>
+                                
+                            </div>
+                        <div class="col-sm-3">
+                            <div>
+                              <h3>Adres</h3>
+                              <ol>
+                                <li>Ege Üniversitesi Mühendislik Fakültesi</li>
+                                <li>Bilgisayar Mühendisliği Bölümü</li>
+                                <li>Kazımdirik Mahallesi,</li>
+                                <li>Bornova Metro İstasyonu Karşısı,</li>
+                                <li>35100 Bornova / İZMİR</li>
+                             </ol>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div>
+                              <h3>İletişim</h3>
+                              <ol>
+                                <li>Telefon: +90 232 388 72 21</li>
+                                <li>Faks: +90 232 339 94 05</li>
+                                <li>E-Posta: bilmuh@mail.ege.edu.tr</li>
+                              </ol>
+                                
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                                <div>
+                                       <h3>Sosyal Medya</h3>
+                                       <div id="socialmedia" onmouseover="mouseOn(this)" onmouseout="mouseOut(this)">
+                                           <div id="socialwrapper">
+                                               <img src="images/socialmedia.png" width="50" height="50" frameborder="0">
+                                           </div>  
+                                           <div id="social-btns" class="social-btns" style="display: none;">
+                                                   <a class="btn facebook" href="https://www.facebook.com/groups/6392386179/">
+                                                   <i class="fa fa-facebook"></i>
+                                                   </a>
+                                                   <a class="btn twitter" href="https://twitter.com/universiteege">
+                                                   <i class="fa fa-twitter"></i>
+                                                   </a>         
+                                                   <a class="btn google" href="https://plus.google.com/u/0/+egeuniversitesi">
+                                                   <i class="fa fa-google"></i>
+                                                   </a>
+                                           </div> 
+                                       </div>      
+                               </div>
+                           </div>
+                    </div>
+                </div>
+                <div class="text-center"> <br> &copy; Copyright Diyar Cemiloğlu 2017</div>
+    </body>
+    <script type="text/javascript" src="js/getPersonel.js"></script>
+    <script type="text/javascript" src="js/getDersler.js"></script>
+    <script type="text/javascript" src="js/social-media.js"></script>
+</html>

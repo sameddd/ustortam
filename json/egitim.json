@@ -1,0 +1,39 @@
+[
+    {
+        "name":"a",
+        "donem":"bahar",
+        "yil": 1,
+        "lisansTip": "lisans"
+
+    },
+    {
+        "name":"b",
+        "donem":"guz",
+        "yil": 1,
+        "lisansTip": "lisans"
+    },
+    {
+        "name":"c",
+        "donem":"guz",
+        "yil": 0,
+        "lisansTip": "yuksek"
+    },
+    {
+        "name":"d",
+        "donem":"bahar",
+        "yil": 0,
+        "lisansTip": "yuksek"
+    },
+    {
+        "name":"e",
+        "donem":"guz",
+        "yil": 3,
+        "lisansTip": "lisans"
+    },
+    {
+        "name":"f",
+        "donem":"bahar",
+        "yil": 2,
+        "lisansTip": "lisans"
+    }
+]

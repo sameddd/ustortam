@@ -1,0 +1,39 @@
+[
+    {
+        "name":"Oğuz Dikenelli",
+        "email":"oguz.dikenelli@ege.edu.tr",
+        "image": "images/oguz_dikenelli.jpg",
+        "tag": "ogretim_uyesi"
+
+    },
+    {
+        "name":"Serdar Korukoğlu",
+        "email":"serdar.korukoglu@ege.edu.tr",
+        "image":"images/serdar_korukoglu.jpg",
+        "tag": "ogretim_uyesi"
+    },
+    {
+        "name":"Levent Toker",
+        "email":"toker1960@gmail.com",
+        "image":"images/levent_toker.jpg",
+        "tag": "ogretim_uyesi"
+    },
+    {
+        "name":"Burak Yönyül",
+        "email":"burak.yonyul@ege.edu.tr",
+        "image":"images/burak_yonyul.jpg",
+        "tag": "akademik_yardimci"
+    },
+    {
+        "name":"Hayriye Uygun",
+        "email":"",
+        "image":"images/hayriye_uygun.jpg",
+        "tag": "idari"
+    },
+    {
+        "name":"Okan Çorbacıoğlu",
+        "email":"",
+        "image":"images/okan_corbacioglu.png",
+        "tag": "idari"
+    }
+]
